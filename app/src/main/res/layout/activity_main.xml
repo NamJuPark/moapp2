@@ -29,13 +29,13 @@
         android:id="@+id/b2" />
 
     <Button
-        android:text="B"
+        android:text="Temperature"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/b3" />
 
     <Button
-        android:text="Button"
+        android:text="Restaurant"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/b4" />
