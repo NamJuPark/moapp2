@@ -22,8 +22,8 @@ public class Main5Activity extends AppCompatActivity {
 
         b1 = (Button)findViewById(R.id.button4);
         e1 = (EditText)findViewById(R.id.editText7);
-        e2 = (EditText)findViewById(R.id.editText8);
-        e3 = (EditText)findViewById(R.id.editText9);
+        e3 = (EditText)findViewById(R.id.editText8);
+        e2 = (EditText)findViewById(R.id.editText9);
         c1 = (CheckBox)findViewById(R.id.checkBox);
         price = (TextView)findViewById(R.id.textView13);
         num = (TextView)findViewById(R.id.textView11);
@@ -40,22 +40,22 @@ public class Main5Activity extends AppCompatActivity {
         int pizza, spa, salad;
 
         String pizza_ = e1.getText().toString();
-        if(e1 == null)
+        if(pizza_.equals(""))
             pizza = 0;
         else pizza = Integer.parseInt(pizza_);
 
         String spa_ = e2.getText().toString();
-        if(e2 == null)
+        if(spa_.equals(""))
             spa = 0;
         else spa = Integer.parseInt(spa_);
 
         String salad_ = e3.getText().toString();
-        if(e3 == null)
+        if(salad_.equals(""))
             salad = 0;
         else salad = Integer.parseInt(salad_);
 
-        total_num = pizza + spa+ salad;
-        total_price = (15000*pizza)+(13000*spa)+(9000 * salad);
+        total_num = pizza+spa+salad;
+        total_price = (15000*pizza)+(13000*spa)+(9000*salad);
 
         if(c1.isChecked()){
             total_price = (total_price *90 ) / 100;
