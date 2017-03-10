@@ -22,8 +22,8 @@ public class Main5Activity extends AppCompatActivity {
 
         b1 = (Button)findViewById(R.id.button4);
         e1 = (EditText)findViewById(R.id.editText7);
-        e3 = (EditText)findViewById(R.id.editText8);
         e2 = (EditText)findViewById(R.id.editText9);
+        e3 = (EditText)findViewById(R.id.editText8);
         c1 = (CheckBox)findViewById(R.id.checkBox);
         price = (TextView)findViewById(R.id.textView13);
         num = (TextView)findViewById(R.id.textView11);

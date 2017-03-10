@@ -23,25 +23,25 @@
         android:id="@+id/b1" />
 
     <Button
-        android:text="Age calculater"
+        android:text="나이 계산기"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/b2" />
 
     <Button
-        android:text="Temperature"
+        android:text="온도 계산기"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/b3" />
 
     <Button
-        android:text="Restaurant"
+        android:text="레스토랑 주문"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/b4" />
 
     <Button
-        android:text="Button"
+        android:text="계산기"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/b5" />
