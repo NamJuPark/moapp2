@@ -14,6 +14,7 @@ public class Main4Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
+        setTitle("온도 계산기");
 
         b1 = (Button)findViewById(R.id.button5);
         b2 = (Button)findViewById(R.id.button6);

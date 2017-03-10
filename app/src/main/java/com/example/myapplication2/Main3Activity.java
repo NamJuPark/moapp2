@@ -14,6 +14,7 @@ public class Main3Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+        setTitle("나이계산기");
 
         b1 = (Button)findViewById(R.id.button2);
         b2 = (Button)findViewById(R.id.button3);

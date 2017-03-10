@@ -12,7 +12,7 @@
     tools:context="com.example.myapplication2.Main4Activity">
 
     <TextView
-        android:text="Input Celsius Temperature"
+        android:text="섭씨 온도 입력"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView5" />
@@ -26,13 +26,13 @@
         android:id="@+id/editText5" />
 
     <Button
-        android:text="Fahrenheit calculate"
-        android:layout_width="wrap_content"
+        android:text="화씨 계산하기"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button5" />
 
     <TextView
-        android:text="Input Fahrenheit temperature"
+        android:text="화씨 온도 입력"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView6" />
@@ -46,8 +46,8 @@
         android:id="@+id/editText6" />
 
     <Button
-        android:text="Celsius calculate"
-        android:layout_width="wrap_content"
+        android:text="섭씨 계산하기"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button6" />
 </LinearLayout>

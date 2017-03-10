@@ -19,6 +19,7 @@ public class Main5Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main5);
+        setTitle("레스토랑 주문");
 
         b1 = (Button)findViewById(R.id.button4);
         e1 = (EditText)findViewById(R.id.editText7);

@@ -1,5 +1,6 @@
 package com.example.myapplication2;
 
+import android.renderscript.Double2;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,6 +20,7 @@ public class Main6Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main6);
+        setTitle("단순 계산기");
 
         b1 = (Button)findViewById(R.id.button7);
         b2 = (Button)findViewById(R.id.button8);
@@ -113,11 +115,13 @@ public class Main6Activity extends AppCompatActivity {
                     .show();
         }
     }
-    private void div() {
+    private void div() { //나누기 오류남
         double num3,num4;
         int result;
+
         num1_ = e1.getText().toString();
         num2_ = e2.getText().toString();
+
         if(num1_ .equals("")) {
             e1.requestFocus();
             Toast.makeText(getApplicationContext(),"값을 입력하세요",Toast.LENGTH_SHORT)
@@ -129,9 +133,9 @@ public class Main6Activity extends AppCompatActivity {
                     .show();
         }
         else{
-            num3 = Integer.parseInt(num1_);
-            num4 = Integer.parseInt(num2_);
-            result = (int)num1/num2;
+            num3 = Double.parseDouble(num1_);
+            num4 = Double.parseDouble(num2_);
+            result = (int) num1/num2;
             Toast.makeText(getApplicationContext(),"나누기 계산 결과는 "+ result +" 입니다.",Toast.LENGTH_SHORT)
                     .show();
         }

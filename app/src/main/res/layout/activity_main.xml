@@ -14,10 +14,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My first app" />
+        android:text="나의 첫번째 앱 만들기" />
 
     <Button
-        android:text="Apple calculater"
+        android:text="사과 계산기"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/b1" />
@@ -41,7 +41,7 @@
         android:id="@+id/b4" />
 
     <Button
-        android:text="계산기"
+        android:text="단순 계산기"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/b5" />
