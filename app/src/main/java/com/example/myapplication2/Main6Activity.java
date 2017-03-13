@@ -116,7 +116,7 @@ public class Main6Activity extends AppCompatActivity {
                     .show();
         }
     }
-    private void div() { //나누기 오류남
+    private void div() {
         int result;
 
         num1_ = e1.getText().toString();
