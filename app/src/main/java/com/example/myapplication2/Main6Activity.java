@@ -14,6 +14,7 @@ public class Main6Activity extends AppCompatActivity {
     EditText e1,e2;
     String num1_,num2_;
     int num1, num2;
+    double num3,num4;
 
 
     @Override
@@ -116,7 +117,6 @@ public class Main6Activity extends AppCompatActivity {
         }
     }
     private void div() { //나누기 오류남
-        double num3,num4;
         int result;
 
         num1_ = e1.getText().toString();
@@ -135,7 +135,7 @@ public class Main6Activity extends AppCompatActivity {
         else{
             num3 = Double.parseDouble(num1_);
             num4 = Double.parseDouble(num2_);
-            result = (int) num1/num2;
+            result = (int) (num3/num4);
             Toast.makeText(getApplicationContext(),"나누기 계산 결과는 "+ result +" 입니다.",Toast.LENGTH_SHORT)
                     .show();
         }
